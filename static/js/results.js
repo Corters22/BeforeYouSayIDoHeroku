@@ -11,10 +11,30 @@ $(document).ready(function(){
         $("#page1").hide();
         $("#page2").hide();
         $("#page3").hide();
+        $("#page5").attr('style', 'visibility:hidden;height:0px;')
+        $("#report").attr('style', 'visibility:hidden;height:0px;')
         $("#result").hide();
         $("#header").attr('style','visibility: hidden; height: 0px;')
         $("#page4").removeAttr('style');
         $('#contTable').removeAttr('style');
+
+    });
+    $("#viz").click(function(){
+        $("#page1").hide();
+        $("#page2").hide();
+        $("#page3").hide();
+        $("#page4").removeAttr('style');
+        $("#page4").attr('style', 'visibility:hidden;height:0px;')
+        $("#result").hide();
+        $("#header").attr('style','visibility: hidden; height: 0px;')
+        $("#page5").removeAttr('style');
+        $("#report").removeAttr('style');
+        $("#report").attr('style', 'width:80vw;height:75vh;');
+        var divElement = document.getElementById('viz1623810761186');
+        var vizElement = divElement.getElementsByTagName('object')[0];        
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);   
 
     });
     $("#btnSubmit").click(function(){

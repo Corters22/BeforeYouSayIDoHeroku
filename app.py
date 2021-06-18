@@ -29,6 +29,10 @@ model = joblib.load('grid_search.sav')
 def home():
     return render_template('index.html')
 
+@app.route("/index")
+def index():
+    return render_template('index.html')
+
 @app.route('/api_options')
 def api_list():   
     """List available api routes."""
@@ -63,9 +67,9 @@ def prediction_gif():
 
 
 
-@app.route('/visualizations')
-def visualizations():
-    return render_template('viz.html')
+# @app.route('/visualizations')
+# def visualizations():
+#     return render_template('viz.html')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,37 @@
+project 3 ideas
+
+for married predictions - gif 
+
+1. avocado (two halves)
+<div class="tenor-gif-embed" data-postid="17628872" data-share-method="host" data-width="100%" data-aspect-ratio="1.0"><a href="https://tenor.com/view/avocado-love-cute-hearts-kiss-gif-17628872">Avocado Love GIF</a> from <a href="https://tenor.com/search/avocado-gifs">Avocado GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+2. heart puzzle 'you complete me'
+https://images.gr-assets.com/hostedimages/1518839697ra/25074569.gif
+
+
+for divorce predictions - gif
+
+1. broken heart ('the end')
+https://bestanimations.com/uploads/gifs/832552745broken-heart-animation13.gif
+2. broken heart (no words)
+https://bestanimations.com/uploads/gifs/351578517brokenheart-animated-gif-54.gif
+
+
+important questions:
+12, 40, 19, 16, 36, 38, 20, 17
+
+in Models_V/random_forest.ipynb
+
+feature_question list
+
+future plans:
+	1. add database 
+	2. add all questions to answer and info goes into database
+	3. add button to redo model with new data
+
+PRESENTATION:
+
+elevator pitch - quick, attention grabbing, why are we doing the machine learning, who is the audience
+	1. Divorce affects over 50% of marriages in the United States. In order to decrease that percentage, we created an application that can assist couples in 
+	their decisions about marriage. Should you get married, should you break up? Take this short test to find out before you invest more time and money in a 
+	relationship that isn't going to work.
+	2. 
